@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <servlet>
+        <servlet-name>EasySendServlet</servlet-name>
+        <servlet-class>controller.EasySendServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ManutencaoServlet</servlet-name>
+        <servlet-class>controller.ManutencaoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EasySendServlet</servlet-name>
+        <url-pattern>/EasySendServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ManutencaoServlet</servlet-name>
+        <url-pattern>/ManutencaoServlet</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

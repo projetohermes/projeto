@@ -1,0 +1,18 @@
+SMAP
+editarCurso_jsp.java
+JSP
+*S JSP
+*F
++ 0 editarCurso.jsp
+editarCurso.jsp
++ 1 titulo.xhtml
+pages_xhtml/titulo.xhtml
++ 2 menu.xhtml
+pages_xhtml/menu.xhtml
+*L
+5,14:50
+1#1,10:64
+18#0,2:74
+1#2,56:76
+19#0,5:131
+*E
