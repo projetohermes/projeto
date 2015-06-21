@@ -1,0 +1,5 @@
+
+Fazer atualização no git
+#git add Diretorio/arquivo
+#git commit -m "Comentario"
+#git push origin master
